@@ -58,4 +58,21 @@ knitr::include_graphics("man/figures/schema.png")
 ```
 
 
+## 리소스 현황
 
+### DBMS 물리적 작업 리소스 
+
+- 메타 테이블 DDL
+    - inst/DBMS/DDL/*
+- 초기 로드 메타 데이터 테이블 데이터
+    - inst/DBMS/meta/*
+- 마이그레이션을 위한 MySQL dump 파일
+    - inst/DBMS/migration/*   
+    
+### 데이터 모델 리소스
+
+- 테이블 정의서
+    - inst/model/*
+- ERD
+    - inst/model/*
+    
