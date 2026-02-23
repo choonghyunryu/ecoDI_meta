@@ -63,11 +63,14 @@ knitr::include_graphics("man/figures/schema.png")
 ### DBMS 물리적 작업 리소스 
 
 - 메타 테이블 DDL
-    - inst/DBMS/DDL/*
+    - inst/DBMS/mysql/DDL/*
+    - inst/DBMS/postgresql/DDL/*
 - 초기 로드 메타 데이터 테이블 데이터
-    - inst/DBMS/meta/*
+    - inst/DBMS/mysql/meta/*
+    - inst/DBMS/postgresql/meta/*
 - 마이그레이션을 위한 MySQL dump 파일
-    - inst/DBMS/migration/*   
+    - inst/DBMS/mysql/migration/*
+    - inst/DBMS/postgresql/migration/*
     
 ### 데이터 모델 리소스
 
