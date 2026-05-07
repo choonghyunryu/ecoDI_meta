@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_data_list
     data_id            CHAR(6) NOT NULL                COMMENT '데이터 아이디',
     raw_site_id        CHAR(6) NOT NULL                COMMENT '원천 사이트 아이디',
     api_url_id         CHAR(6)                         COMMENT 'API URL 아이디',
-    data_nm            VARCHAR(50) NOT NULL            COMMENT '데이터 명칭',
+    data_nm            VARCHAR(200) NOT NULL           COMMENT '데이터 명칭',
     raw_table_id       VARCHAR(20) NOT NULL            COMMENT '원천 테이블 이름',
     raw_table_nm       VARCHAR(50) NOT NULL            COMMENT '원천 테이블 논리명',
     raw_schema_nm      VARCHAR(20) NOT NULL            COMMENT '원천 데이터 스키마명',

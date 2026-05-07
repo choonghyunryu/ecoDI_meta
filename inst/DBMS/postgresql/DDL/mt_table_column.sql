@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_table_column
     column_seq         INTEGER NOT NULL,
     column_id          VARCHAR(50) NOT NULL,
     column_nm          VARCHAR(50) NOT NULL,
-    code_id            VARCHAR(20),
+    code_id            CHAR(6),
     pov_region         VARCHAR(20),
     pov_age            VARCHAR(20),
     column_type        VARCHAR(20) NOT NULL,
@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_table_column
     column_unit_clss   VARCHAR(20),
     column_unit        INTEGER,
     column_desc        VARCHAR(200),
+    mtrc_type          CHAR(1),
     cret_dt            TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     cret_nm            VARCHAR(20) NOT NULL,
     mdfy_dt            TIMESTAMP,
@@ -44,6 +45,7 @@ COMMENT ON COLUMN mt_table_column.column_clss IS '데이터 컬럼 구분';
 COMMENT ON COLUMN mt_table_column.column_unit_clss IS '데이터 컬럼 단위 명칭';
 COMMENT ON COLUMN mt_table_column.column_unit IS '데이터 컬럼 단위';
 COMMENT ON COLUMN mt_table_column.column_desc IS '데이터 컬럼 비고';
+COMMENT ON COLUMN mt_table_column.mtrc_type IS '지표유형';
 COMMENT ON COLUMN mt_table_column.cret_dt IS '생성일시';
 COMMENT ON COLUMN mt_table_column.cret_nm IS '생성자';
 COMMENT ON COLUMN mt_table_column.mdfy_dt IS '수정일시';

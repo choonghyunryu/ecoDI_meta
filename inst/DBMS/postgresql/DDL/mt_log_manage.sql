@@ -23,7 +23,7 @@ COMMENT ON TABLE ecodi_meta.mt_log_manage IS '테이블 데이터 Import 로그'
 
 COMMENT ON COLUMN mt_log_manage.user_id IS '크롤러 서버 사용자 아이디';
 COMMENT ON COLUMN mt_log_manage.db_id IS 'DBMS 아이디';
-COMMENT ON COLUMN mt_log_manage.schema_nm IS 'DBMS 스키마 명';
+COMMENT ON COLUMN mt_log_manage.schema_nm IS 'DB 스키마명';
 COMMENT ON COLUMN mt_log_manage.start_dt IS '실행 시작일시';
 COMMENT ON COLUMN mt_log_manage.rand_key IS '랜덤 키';
 COMMENT ON COLUMN mt_log_manage.end_dt IS '실행 종료일시';

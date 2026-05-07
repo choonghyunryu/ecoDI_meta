@@ -3,8 +3,8 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_kosis_tbl
 (
     tbl_id      VARCHAR(40) NOT NULL,
     org_id      VARCHAR(40) NOT NULL,  
-    tbl_nm      VARCHAR(300) NOT NULL,
-    tbl_nm_eng  VARCHAR(300) NOT NULL,
+    tbl_nm      VARCHAR(200) NOT NULL,
+    tbl_nm_eng  VARCHAR(200) NOT NULL,
     cret_dt     TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     cret_nm     VARCHAR(20) NOT NULL,
     mdfy_dt     TIMESTAMP,

@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_kosis_itm
     obj_id_sn   INT                             COMMENT '객체 ID 일련번호',
     obj_nm_eng  VARCHAR(40)                     COMMENT '객체 영문 명칭',
     up_itm_id   VARCHAR(40)                     COMMENT '상위 데이터 항목 ID',
-    itm_nm      VARCHAR(40) NOT NULL            COMMENT '데이터 항목 명칭',
+    itm_nm      VARCHAR(50) NOT NULL            COMMENT '데이터 항목 명칭',
     itm_id      VARCHAR(40) NOT NULL            COMMENT '데이터 항목 ID',
     itm_nm_eng  VARCHAR(40)                     COMMENT '데이터 항목 영문 명칭',
     unit_id     VARCHAR(40)                     COMMENT '단위 ID',

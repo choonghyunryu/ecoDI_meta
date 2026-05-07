@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_api_paramset
     api_url_id     CHAR(6) NOT NULL,
     param_seq      INTEGER NOT NULL,
     value_seq      INTEGER NOT NULL,
-    value_set      VARCHAR(50),
+    value_set      VARCHAR(200),
     value_set_desc VARCHAR(200),
     parent_set     VARCHAR(50),    
     cret_dt        TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,

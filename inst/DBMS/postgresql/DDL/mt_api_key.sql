@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_api_key
 
 COMMENT ON TABLE ecodi_meta.mt_api_key IS 'Open API KEY 정보';
 
-COMMENT ON COLUMN mt_api_key.key_id IS 'KEY 아이디';
+COMMENT ON COLUMN mt_api_key.key_id IS 'API Key 아이디';
 COMMENT ON COLUMN mt_api_key.user_id_enc IS '크롤러 서버 사용자 아이디';
 COMMENT ON COLUMN mt_api_key.org_nm IS '공급 기관명';
 COMMENT ON COLUMN mt_api_key.org_nm_en IS '인코딩된 Open API Key';

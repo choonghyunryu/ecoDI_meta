@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_api_errmsg
 (
     api_url_id     CHAR(6) NOT NULL,
     err_cd         VARCHAR(20) NOT NULL,
-    err_msg        VARCHAR(50) NOT NULL,
+    err_msg        VARCHAR(100) NOT NULL,
     action         VARCHAR(50) NOT NULL,
     cret_dt        TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     cret_nm        VARCHAR(20) NOT NULL,

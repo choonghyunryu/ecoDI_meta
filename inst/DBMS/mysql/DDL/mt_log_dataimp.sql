@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_log_dataimp
 (
     user_id    VARCHAR(20) NOT NULL            COMMENT '크롤러 서버 사용자 아이디',
     db_id      VARCHAR(20) NOT NULL            COMMENT 'DBMS 아이디',    
-    schema_nm  VARCHAR(20) NOT NULL            COMMENT 'DB 스키마 명',
+    schema_nm  VARCHAR(20) NOT NULL            COMMENT 'DB 스키마명',
     start_dt   DATETIME NOT NULL               COMMENT '실행 시작일시',
     end_dt     DATETIME NOT NULL               COMMENT '실행 종료일시',
     data_id    CHAR(6) NOT NULL                COMMENT '데이터 아이디',

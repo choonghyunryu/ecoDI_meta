@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_kosis_org
 
 COMMENT ON TABLE ecodi_meta.mt_kosis_org IS 'KOSIS 데이터 제공기관 정보';
 
-COMMENT ON COLUMN mt_kosis_org.org_id IS '기관 코드';
-COMMENT ON COLUMN mt_kosis_org.org_nm IS '기관명';
-COMMENT ON COLUMN mt_kosis_org.org_type IS '기관 유형';
+COMMENT ON COLUMN mt_kosis_org.org_id IS '제공기관 코드';
+COMMENT ON COLUMN mt_kosis_org.org_nm IS '제공기관명';
+COMMENT ON COLUMN mt_kosis_org.org_type IS '제공기관 유형';
 COMMENT ON COLUMN mt_kosis_org.phone_no IS '전화번호';
 COMMENT ON COLUMN mt_kosis_org.fax_no IS '팩스번호';
 COMMENT ON COLUMN mt_kosis_org.post_cd IS '우편번호';
@@ -33,7 +33,7 @@ COMMENT ON COLUMN mt_kosis_org.addr IS '주소';
 COMMENT ON COLUMN mt_kosis_org.use_yn IS '사용여부';
 COMMENT ON COLUMN mt_kosis_org.appr_stat_yn IS '승인통계유무';
 COMMENT ON COLUMN mt_kosis_org.homepage IS '홈페이지';
-COMMENT ON COLUMN mt_kosis_org.org_nm_eng IS '기관명(영문)';
+COMMENT ON COLUMN mt_kosis_org.org_nm_eng IS '제공기관명(영문)';
 COMMENT ON COLUMN mt_kosis_org.org_reg_date IS '등록일';
 COMMENT ON COLUMN mt_kosis_org.org_mdfy_date IS '최종수정일';
 COMMENT ON COLUMN mt_kosis_org.cret_dt IS '생성일시';

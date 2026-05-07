@@ -1,7 +1,7 @@
 -- Description: Open API KEY 정보 메타 테이블 생성
 CREATE TABLE IF NOT EXISTS ecodi_meta.mt_api_key
 (
-    key_id      VARCHAR(20) NOT NULL            COMMENT 'KEY 아이디',
+    key_id      VARCHAR(20) NOT NULL            COMMENT 'API Key 아이디',
     user_id_enc VARCHAR(20) NOT NULL            COMMENT '크롤러 서버 사용자 아이디',
     org_nm      VARCHAR(50) NOT NULL            COMMENT '공급 기관명',
     org_nm_en   VARCHAR(50)                     COMMENT '인코딩된 Open API Key',

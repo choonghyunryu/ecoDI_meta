@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_table_update
     update_seq         INTEGER NOT NULL,
     prvdr_cycle        VARCHAR(2) NOT NULL,
     data_base_pov      VARCHAR(20) NOT NULL,
-    update_date        CHAR(10) NOT NULL,
+    update_date        VARCHAR(10) NOT NULL,
     cret_dt            TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     cret_nm            VARCHAR(20) NOT NULL,
     mdfy_dt            TIMESTAMP,

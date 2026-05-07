@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_api_paramset
     api_url_id     CHAR(6) NOT NULL                COMMENT 'API URL 아이디',
     param_seq      INT NOT NULL                    COMMENT '파라미터 순번',
     value_seq      INT NOT NULL                    COMMENT '값 순번',
-    value_set      VARCHAR(50)                     COMMENT '값 목록',
+    value_set      VARCHAR(200)                    COMMENT '값 목록',
     value_set_desc VARCHAR(200)                    COMMENT '값 목록 내용',
     parent_set     VARCHAR(50)                     COMMENT '상위 파라미터 값',    
     cret_dt        DATETIME DEFAULT now() NOT NULL COMMENT '생성일시',

@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_data_list
     data_id            CHAR(6) NOT NULL,
     raw_site_id        CHAR(6) NOT NULL,
     api_url_id         CHAR(6),
-    data_nm            VARCHAR(50) NOT NULL,
+    data_nm            VARCHAR(200) NOT NULL,
     raw_table_id       VARCHAR(20) NOT NULL,
     raw_table_nm       VARCHAR(50) NOT NULL,
     raw_schema_nm      VARCHAR(20) NOT NULL,
@@ -23,10 +23,10 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_data_list
     pov_age_lc         CHAR(1) DEFAULT 'N' NOT NULL,
     pov_age_10         CHAR(1) DEFAULT 'N' NOT NULL,
     pov_age_5          CHAR(1) DEFAULT 'N' NOT NULL,
-    cret_dt             TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    cret_nm             VARCHAR(20) NOT NULL,
-    mdfy_dt             TIMESTAMP,
-    mdfy_nm             VARCHAR(20),
+    cret_dt            TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    cret_nm            VARCHAR(20) NOT NULL,
+    mdfy_dt            TIMESTAMP,
+    mdfy_nm            VARCHAR(20),
     CONSTRAINT mt_data_list_pkey PRIMARY KEY (data_id)
 );
 

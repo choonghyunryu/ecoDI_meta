@@ -25,7 +25,7 @@ COMMENT ON TABLE ecodi_meta.mt_log_dataimp IS '데이터 수집/통합 로그';
 
 COMMENT ON COLUMN mt_log_dataimp.user_id IS '크롤러 서버 사용자 아이디';
 COMMENT ON COLUMN mt_log_dataimp.db_id IS 'DBMS 아이디';
-COMMENT ON COLUMN mt_log_dataimp.schema_nm IS 'DB 스키마 명';
+COMMENT ON COLUMN mt_log_dataimp.schema_nm IS 'DB 스키마명';
 COMMENT ON COLUMN mt_log_dataimp.start_dt IS '실행 시작일시';
 COMMENT ON COLUMN mt_log_dataimp.end_dt IS '실행 종료일시';
 COMMENT ON COLUMN mt_log_dataimp.data_id IS '데이터 아이디';

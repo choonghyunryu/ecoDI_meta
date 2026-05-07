@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS ecodi_meta.mt_kosis_itm
     obj_id_sn   INTEGER,
     obj_nm_eng  VARCHAR(40),
     up_itm_id   VARCHAR(40),
-    itm_nm      VARCHAR(40) NOT NULL,
+    itm_nm      VARCHAR(50) NOT NULL,
     itm_id      VARCHAR(40) NOT NULL,
     itm_nm_eng  VARCHAR(40),
     unit_id     VARCHAR(40),
